@@ -18,3 +18,7 @@ parcel ./src/index.html
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 `
 This will allow you to run parcel. You can change it anytime you like later on.
+
+## IMPORTANT
+
+Parcel might have some issues when you are updating your code. In that case, delete the content of .parcel-cache and the dist folder, and relaunch parcel. This should do the trick.
